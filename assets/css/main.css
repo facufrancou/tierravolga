@@ -398,23 +398,23 @@ img {
 }
 :root {
   --ztc-text-text-1: #fff;
-  --ztc-text-text-2: #C90F16;
+  --ztc-text-text-2: #7D0C0A;
   --ztc-text-text-3: #060404;
   --ztc-text-text-4: #5A5454;
   --ztc-text-text-5: #142637;
   --ztc-text-text-6: #525455;
-  --ztc-text-text-7: #0A0400;
+  --ztc-text-text-7: #3D2113;
   --ztc-text-text-8: #5F5C5A;
-  --ztc-text-text-9: #EC631A;
+  --ztc-text-text-9: #7D0C0A;
   --ztc-text-text-10: #01060E;
   --ztc-text-text-11: #5A5A5A;
   --ztc-bg-bg-1: #F3F5F7;
   --ztc-bg-bg-2: #FAE7E8;
-  --ztc-bg-bg-3: #FFD028;
+  --ztc-bg-bg-3: #7D0C0A;
   --ztc-bg-bg-4: #2C3C4B;
   --ztc-bg-bg-5: #E7E9EB;
   --ztc-bg-bg-6: #B9BEC3;
-  --ztc-bg-bg-7: #EE6400;
+  --ztc-bg-bg-7: #7D0C0A;
   --ztc-bg-bg-8: #F3E7DE;
   --ztc-bg-bg-10: #FDF0E5;
   --ztc-bg-bg-11: #0145AC;
@@ -1201,7 +1201,7 @@ Location:
   left: 45%;
   top: 0;
   transition: all 0.4s;
-  background: #ff6a00;
+  background: #CCB137;
   z-index: -1;
   visibility: hidden;
   opacity: 0;
@@ -1228,7 +1228,7 @@ Location:
 .header-btn6:hover {
   color: var(--ztc-text-text-1);
   transition: all 0.4s;
-  border: 1px solid #ff6a00;
+  border: 1px solid #CCB137;
 }
 .header-btn6:hover::after {
   left: 0;
@@ -1249,7 +1249,7 @@ Location:
   left: 45%;
   top: 0;
   transition: all 0.4s;
-  background: #ff6a00;
+  background: #CCB137;
   z-index: -1;
   visibility: hidden;
   opacity: 0;
@@ -6301,7 +6301,7 @@ Location:
   left: 45%;
   top: 0;
   transition: all 0.4s;
-  background: #ff6a00;
+  background: #CCB137;
   z-index: -1;
   visibility: hidden;
   opacity: 0;
