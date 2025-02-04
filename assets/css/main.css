@@ -399,7 +399,7 @@ img {
 :root {
   --ztc-text-text-1: #fff;
   --ztc-text-text-2: #7D0C0A;
-  --ztc-text-text-3: #060404;
+  --ztc-text-text-3: #000000;
   --ztc-text-text-4: #5A5454;
   --ztc-text-text-5: #142637;
   --ztc-text-text-6: #525455;
@@ -3394,17 +3394,21 @@ Location:
 
 /*============= HERO CSS AREA ===============*/
 /*============= MOBILE MENU CSS AREA ===============*/
-.mobile-header.mobile-haeder1 {
-  background: var(--ztc-text-text-3);
+
+.burguer-menu{
+  color: black !important;
+}
+.mobile-header.mobile-haeder3 {
+  background: var(--ztc-text-text-1)!important;
   position: fixed;
   width: 100%;
 }
 .mobile-header.mobile-haeder1 .dots-menu {
-  color: var(--ztc-text-text-1);
+  color: var(--ztc-text-text-1) ;
 }
 
 .mobile-sidebar.mobile-sidebar1 {
-  background: var(--ztc-text-text-3);
+  background: var(--ztc-text-text-1);
 }
 .mobile-sidebar.mobile-sidebar1 .menu-close {
   color: var(--ztc-text-text-1);
