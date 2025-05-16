@@ -540,6 +540,7 @@ Location:
 */
 /*============= HEDAER CSS AREA ===============*/
 /*============= HERO CSS AREA ===============*/
+
 /*============= MOBILE-MENU CSS AREA ===============*/
 /*============= ABOUT CSS AREA ===============*/
 /*============= SERVICE CSS AREA ===============*/
@@ -1357,7 +1358,7 @@ Location:
 
 /*============= COMMON CSS AREA ENDS===============*/
 .sp1 {
-  padding: 100px 0 100px;
+  padding: 150px 0 100px;
 }
 @media (max-width: 767px) {
   .sp1 {
@@ -9024,7 +9025,7 @@ Location:
   left: 0;
   top: 0;
   background: var(--ztc-text-text-7);
-  opacity: 0.8;
+  /* opacity: 0.8; */
   z-index: -1;
 }
 .contact3-section-area .contact-header-area {
@@ -10759,3 +10760,4 @@ Location:
 }
 
 /*============= CASE STUDY CSS AREA ENDS ===============*//*# sourceMappingURL=main.css.map */
+
