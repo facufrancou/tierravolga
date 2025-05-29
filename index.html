@@ -82,7 +82,20 @@
       content="https://tierravolga.com/assets/img/logo/logo.png"
     />
   </head>
-  <body class="homepage3-body tg-heading-subheading animation-style3">
+  <body
+    class="homepage3-body tg-heading-subheading animation-style3"
+    style="
+      background-image: linear-gradient(
+          rgb(255, 255, 255),
+          rgba(255, 255, 255, 0.192)
+        ),
+        url('assets/img/bg/back2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    "
+  >
     <!-- ==== INICIO BLOQUE: PRELOADER ==== -->
     <div class="preloader preloader4">
       <div class="loading-container">
@@ -143,12 +156,15 @@
                       <a
                         class="nav-link"
                         href="https://drive.google.com/file/d/11x36DSQEckRCYQnlcNZfok3yfithvpoC/view?usp=sharing"
+                        target="_blank"
                       >
                         <span>Productos</span></a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#case"><span>Proveedores</span></a>
+                      <a class="nav-link" href="#case"
+                        ><span>Proveedores</span></a
+                      >
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#team"> <span>Equipo</span></a>
@@ -211,10 +227,18 @@
             <a class="nav-link active" href="#about"><span>Nosotros</span></a>
           </li>
           <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://drive.google.com/file/d/11x36DSQEckRCYQnlcNZfok3yfithvpoC/view?usp=sharing"
+              target="_blank"
+              ><span>Productos</span></a
+            >
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#service"><span>Servicios</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#case"><span>Clientes</span></a>
+            <a class="nav-link" href="#case"><span>Proveedores</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#team"><span>Equipo</span></a>
@@ -328,13 +352,13 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <div class="header-images-area">
               <div class="header-img">
-                <img alt="" src="assets/img/all-images/header-img5.png" />
+                <img alt="" src="assets/img/all-images/tv-frente.jpg" />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -363,17 +387,17 @@
                 <p>Nuestra Misión</p>
                 <ul>
                   <li>
-                    <img alt="" src="assets/img/icons/check3.svg" />Proveer
+                    <img alt="" src="assets/img/icons/check1.svg" />Proveer
                     soluciones eficientes en nutrición porcina, aviar y en
                     rumiantes.
                   </li>
                   <li>
-                    <img alt="" src="assets/img/icons/check3.svg" />Ofrecer
+                    <img alt="" src="assets/img/icons/check1.svg" />Ofrecer
                     productos de vanguardia para mejorar los índices
                     productivos.
                   </li>
                   <li>
-                    <img alt="" src="assets/img/icons/check3.svg" />Brindar
+                    <img alt="" src="assets/img/icons/check1.svg" />Brindar
                     asesoramiento técnico especializado a nuestros clientes.
                   </li>
                 </ul>
@@ -384,7 +408,7 @@
                 data-aos-duration="1200"
               >
                 <a class="header-btn5" href="#service"
-                  >Todos nuestros servicios
+                  >Nuestros servicios
                   <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -398,21 +422,13 @@
                   <div class="img1" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="space70 d-md-block d-none"></div>
                     <div class="space30 d-md-none d-block"></div>
-                    <img alt="" src="assets/img/all-images/about-img5.png" />
+                    <img alt="" src="assets/img/all-images/pollo.png" />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                   <div class="img1" data-aos="zoom-in" data-aos-duration="1200">
                     <div class="space30 d-md-none d-block"></div>
-                    <img alt="" src="assets/img/all-images/about-img6.png" />
-                    <div class="about-footer-bottom">
-                      <div class="img">
-                        <img alt="" src="assets/img/icons/star1.svg" />
-                      </div>
-                      <div class="content">
-                        <span>Representantes NUTRIFARMS</span>
-                      </div>
-                    </div>
+                    <img alt="" src="assets/img/all-images/lechon.png" />
                   </div>
                 </div>
               </div>
@@ -451,10 +467,10 @@
           >
             <div class="service-auhtor-boxarea">
               <div class="icons">
-                <img alt="" src="assets/img/icons/service-icons4.svg" />
+                <img alt="#service" src="assets/img/logo/logo.svg" />
               </div>
               <div class="content-area">
-                <a href="service-single.html">Nutrición Porcina</a>
+                <a>Nutrición Porcina</a>
                 <p>
                   Asesoramiento técnico y formulación de dietas adaptadas a cada
                   etapa productiva.
@@ -469,12 +485,13 @@
           >
             <div class="service-auhtor-boxarea">
               <div class="icons">
-                <img alt="" src="assets/img/icons/service-icons5.svg" />
+                <img alt="" src="assets/img/logo/logo.svg" />
               </div>
               <div class="content-area">
-                <a href="service-single.html">Nutrición en Aves</a>
+                <a>Nutrición en Aves</a>
                 <p>
-                  Formulación precisa y uso de aditivos para mejorar el rendimiento avícola.
+                  Formulación precisa y uso de aditivos para mejorar el
+                  rendimiento avícola.
                 </p>
               </div>
             </div>
@@ -486,76 +503,21 @@
           >
             <div class="service-auhtor-boxarea">
               <div class="icons">
-                <img alt="" src="assets/img/icons/service-icons6.svg" />
+                <img alt="" src="assets/img/logo/logo.svg" />
               </div>
               <div class="content-area">
-                <a href="service-single.html">Sanidad Animal</a>
+                <a>Sanidad Animal</a>
                 <p>
-                  Diseño personalizado de esquemas vacunales para ponedoras comerciales y control sanitario.
+                  Diseño personalizado de esquemas vacunales para ponedoras
+                  comerciales y control sanitario.
                 </p>
               </div>
             </div>
           </div>
-          <!-- <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="800"
-          >
-            <div class="service-auhtor-boxarea">
-              <div class="icons">
-                <img alt="" src="assets/img/icons/service-icons7.svg" />
-              </div>
-              <div class="content-area">
-                <a href="service-single.html">Nutrición de Precisión</a>
-                <p>
-                  Optimización de dietas según especie, etapa productiva y
-                  objetivos del productor. Reducción de costos y mejoras de
-                  conversión.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
-            <div class="service-auhtor-boxarea">
-              <div class="icons">
-                <img alt="" src="assets/img/icons/service-icons8.svg" />
-              </div>
-              <div class="content-area">
-                <a href="service-single.html">Capacitación y Charlas</a>
-                <p>
-                  Formación técnica continua para veterinarios, productores y
-                  operarios. Actividades presenciales y virtuales.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="1200"
-          >
-            <div class="service-auhtor-boxarea">
-              <div class="icons">
-                <img alt="" src="assets/img/icons/service-icons9.svg" />
-              </div>
-              <div class="content-area">
-                <a href="service-single.html">Seguimiento y Monitoreo</a>
-                <p>
-                  Visitas programadas, control de parámetros productivos y
-                  análisis de resultados para toma de decisiones.
-                </p>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
     <!-- ==== FIN BLOQUE: SERVICES ==== -->
-
     <!-- ==== INICIO BLOQUE: CASE STUDIES ==== -->
     <div class="casestudy2-section-area sp2" id="case">
       <div class="container">
@@ -564,17 +526,87 @@
             <div class="casestudy-header text-center heading6">
               <h5 data-aos="fade-up" data-aos-duration="800">Proveedores</h5>
               <h2 class="tg-element-title">
-                Somos representantes de marcas líderes
+                Nuestros aliados estratégicos
               </h2>
               <p data-aos="fade-up" data-aos-duration="1000">
-                Conocé cómo acompañamos a distintos establecimientos
-                agropecuarios en la mejora de su productividad a través de
-                soluciones nutricionales y técnicas personalizadas.
+                Empresas que comparten nuestro compromiso con la calidad y la innovación.
               </p>
             </div>
           </div>
         </div>
         <div class="row">
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+          >
+            <div class="case-auhtor-boxarea">
+              <div class="img1">
+                <img
+                  alt="Cliente 1"
+                  src="assets/img/all-images/case-img4.png"
+                />
+              </div>
+              <div class="case-bg">
+                <img alt="" src="assets/img/bg/casebg.png" />
+              </div>
+              <div class="content">
+                <a href="case-single.html">
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <p>Establecimiento Avícola</p>
+                <a href="case-single.html">Mejora en conversión alimenticia</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+          >
+            <div class="case-auhtor-boxarea">
+              <div class="img1">
+                <img
+                  alt="Cliente 1"
+                  src="assets/img/all-images/case-img4.png"
+                />
+              </div>
+              <div class="case-bg">
+                <img alt="" src="assets/img/bg/casebg.png" />
+              </div>
+              <div class="content">
+                <a href="case-single.html">
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <p>Establecimiento Avícola</p>
+                <a href="case-single.html">Mejora en conversión alimenticia</a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+          >
+            <div class="case-auhtor-boxarea">
+              <div class="img1">
+                <img
+                  alt="Cliente 1"
+                  src="assets/img/all-images/case-img4.png"
+                />
+              </div>
+              <div class="case-bg">
+                <img alt="" src="assets/img/bg/casebg.png" />
+              </div>
+              <div class="content">
+                <a href="case-single.html">
+                  <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <p>Establecimiento Avícola</p>
+                <a href="case-single.html">Mejora en conversión alimenticia</a>
+              </div>
+            </div>
+          </div>
           <div
             class="col-lg-4 col-md-6"
             data-aos="zoom-in"
@@ -625,6 +657,7 @@
               </div>
             </div>
           </div>
+          
           <div
             class="col-lg-4 col-md-6"
             data-aos="zoom-in"
@@ -655,7 +688,6 @@
       </div>
     </div>
     <!-- ==== FIN BLOQUE: CASE STUDIES ==== -->
-
     <!-- ==== INICIO BLOQUE: TEAM ==== -->
     <div class="team3-section-area sp2" id="team">
       <div class="container">
@@ -663,9 +695,7 @@
           <div class="col-lg-6 m-auto">
             <div class="team-header-area text-center heading6">
               <h5 data-aos="fade-up" data-aos-duration="800">Nuestro Equipo</h5>
-              <h2 data-aos="tg-element-title">
-                Conocé a quienes nos representan
-              </h2>
+              <h2 data-aos="tg-element-title">Conocé nuestros profesionales</h2>
               <p data-aos="fade-up" data-aos-duration="1000">
                 Nuestro equipo está comprometido con brindar asesoramiento
                 técnico y acompañamiento personalizado para optimizar la sanidad
@@ -694,6 +724,9 @@
                   <li>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                   </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -717,6 +750,9 @@
                   <li>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                   </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -734,11 +770,14 @@
                 />
               </div>
               <div class="content-area">
-                <a>Equipo de Apoyo</a>
+                <a>Leonardo</a>
                 <p>Logística y Soporte</p>
                 <ul>
                   <li>
                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                   </li>
                 </ul>
               </div>
@@ -751,7 +790,6 @@
 
     <!-- ==== INICIO BLOQUE: BLOG ==== -->
     <!--===== BLOG AREA STARTS =======-->
-    <!--===== BLOG AREA STARTS =======-->
     <section class="blog3-section-area sp2" id="blog">
       <div class="container">
         <!-- Encabezado de sección -->
@@ -759,7 +797,9 @@
           <div class="col-lg-6 m-auto">
             <div class="blog-header-area text-center heading6">
               <h5 data-aos="fade-up" data-aos-duration="800">Novedades</h5>
-              <h2 class="tg-element-title">Información actualizada de quienes representamos</h2>
+              <h2 class="tg-element-title">
+                Información actualizada de quienes representamos
+              </h2>
               <p data-aos="fade-up" data-aos-duration="1000">
                 Compartimos experiencias, análisis y consejos sobre nutrición,
                 sanidad y eficiencia productiva en el campo.
@@ -785,59 +825,22 @@
                 </div>
                 <div class="contact">
                   <a href="#"
-                    ><img src="assets/img/icons/auhtor1.svg" alt="" />NUTRIFARMS</a
+                    ><img
+                      src="assets/img/icons/auhtor1.svg"
+                      alt=""
+                    />NUTRIFARMS</a
                   >
                 </div>
               </div>
               <div class="content-area">
-                <a href="https://nutrifarms.com.ar/07/05/2025/sin-ensayos-no-hay-certezas-validacion-en-condiciones-reales-de-produccion/">Sin ensayos no hay certezas: Validación en condiciones reales de producción</a>
-                
+                <a
+                  href="https://nutrifarms.com.ar/07/05/2025/sin-ensayos-no-hay-certezas-validacion-en-condiciones-reales-de-produccion/"
+                  >Sin ensayos no hay certezas: Validación en condiciones reales
+                  de producción</a
+                >
               </div>
               <div class="img1">
-                <img src="assets/img/all-images/blog-img7.png" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <!-- Modal Noticia 1 -->
-          <div
-            class="modal fade"
-            id="blogModal1"
-            tabindex="-1"
-            aria-labelledby="blogModal1Label"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header bg-dark text-white">
-                  <h5 class="modal-title" id="blogModal1Label">
-                    Consejos clave para mejorar la sanidad animal
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close btn-close-white"
-                    data-bs-dismiss="modal"
-                    aria-label="Cerrar"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <p><strong>Autor:</strong> Ignacio</p>
-                  <p><strong>Fecha:</strong> 16 Abril 2024</p>
-                  <hr />
-                  <p>
-                    La sanidad animal es un pilar fundamental en la producción
-                    agropecuaria. Implementar medidas preventivas, mantener un
-                    plan sanitario actualizado y trabajar en conjunto con
-                    asesores técnicos puede reducir significativamente
-                    enfermedades y mejorar los índices productivos.
-                  </p>
-                  <p>
-                    En esta nota te contamos algunos puntos clave sobre
-                    bioseguridad, manejo preventivo y cómo utilizar los
-                    suplementos adecuados para fortalecer el sistema inmune de
-                    los animales.
-                  </p>
-                </div>
+                <img src="assets/img/all-images/nutrifarms-logo.svg" alt="" />
               </div>
             </div>
           </div>
@@ -852,148 +855,66 @@
               <div class="tags-area">
                 <div class="date">
                   <a href="#"
-                    ><i class="fa-solid fa-calendar-days"></i>5 Marzo 2024</a
+                    ><i class="fa-solid fa-calendar-days"></i>09/04/2025</a
                   >
                 </div>
                 <div class="contact">
                   <a href="#"
-                    ><img src="assets/img/icons/auhtor1.svg" alt="" />Juan
-                    Manuel</a
+                    ><img
+                      src="assets/img/icons/auhtor1.svg"
+                      alt=""
+                    />NUTRIFARMS</a
                   >
                 </div>
               </div>
               <div class="content-area">
-                <a href="#">Estrategias de alimentación en épocas críticas</a>
                 <a
+                  href="https://nutrifarms.com.ar/09/04/2025/la-fabricacion-de-los-alimentos-de-la-teoria-a-la-realidad/"
+                  >La fabricación de los alimentos, de la teoría a la
+                  realidad</a
+                >
+                <!--  <a
                   href="#"
                   class="readmore"
                   data-bs-toggle="modal"
                   data-bs-target="#blogModal2"
                 >
                   Leer más <i class="fa-solid fa-arrow-right"></i>
-                </a>
+                </a> -->
               </div>
               <div class="img1">
-                <img src="assets/img/all-images/blog-img8.png" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <!-- Modal Noticia 2 -->
-          <div
-            class="modal fade"
-            id="blogModal2"
-            tabindex="-1"
-            aria-labelledby="blogModal2Label"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header bg-dark text-white">
-                  <h5 class="modal-title" id="blogModal2Label">
-                    Estrategias de alimentación en épocas críticas
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close btn-close-white"
-                    data-bs-dismiss="modal"
-                    aria-label="Cerrar"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <p><strong>Autor:</strong> Juan Manuel</p>
-                  <p><strong>Fecha:</strong> 5 Marzo 2024</p>
-                  <hr />
-                  <p>
-                    Las condiciones climáticas extremas requieren ajustes en la
-                    dieta para minimizar pérdidas. Aumentar la energía, cuidar
-                    la hidratación y reforzar el uso de aditivos funcionales es
-                    clave.
-                  </p>
-                  <p>
-                    Te compartimos herramientas prácticas para adecuar las
-                    raciones en invierno o verano y así garantizar el bienestar
-                    y la productividad de los animales.
-                  </p>
-                </div>
+                <img src="assets/img/all-images/nutrifarms-logo.svg" alt="" />
               </div>
             </div>
           </div>
 
           <!-- Noticia 3 -->
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="1200"
-          >
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1200">
             <div class="blog-boxes-area">
               <div class="tags-area">
                 <div class="date">
                   <a href="#"
-                    ><i class="fa-solid fa-calendar-days"></i>22 Enero 2024</a
+                    ><i class="fa-solid fa-calendar-days"></i>06/03/2025</a
                   >
                 </div>
                 <div class="contact">
                   <a href="#"
-                    ><img src="assets/img/icons/auhtor1.svg" alt="" />Equipo
-                    Técnico</a
+                    ><img
+                      src="assets/img/icons/auhtor1.svg"
+                      alt=""
+                    />NUTRIFARMS</a
                   >
                 </div>
               </div>
               <div class="content-area">
-                <a href="#">Tendencias en bioseguridad para productores</a>
                 <a
-                  href="#"
-                  class="readmore"
-                  data-bs-toggle="modal"
-                  data-bs-target="#blogModal3"
+                  href="https://nutrifarms.com.ar/06/03/2025/regulacion-de-comederos-y-el-impacto-en-la-produccion-porcina/"
+                  >Regulación de comederos y el impacto en la producción
+                  porcina</a
                 >
-                  Leer más <i class="fa-solid fa-arrow-right"></i>
-                </a>
               </div>
               <div class="img1">
-                <img src="assets/img/all-images/blog-img9.png" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <!-- Modal Noticia 3 -->
-          <div
-            class="modal fade"
-            id="blogModal3"
-            tabindex="-1"
-            aria-labelledby="blogModal3Label"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header bg-dark text-white">
-                  <h5 class="modal-title" id="blogModal3Label">
-                    Tendencias en bioseguridad para productores
-                  </h5>
-                  <button
-                    type="button"
-                    class="btn-close btn-close-white"
-                    data-bs-dismiss="modal"
-                    aria-label="Cerrar"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <p><strong>Autor:</strong> Equipo Técnico</p>
-                  <p><strong>Fecha:</strong> 22 Enero 2024</p>
-                  <hr />
-                  <p>
-                    En los últimos años, la bioseguridad se ha consolidado como
-                    un eje esencial para la prevención de enfermedades en
-                    establecimientos ganaderos.
-                  </p>
-                  <p>
-                    Desde el diseño de barreras físicas, control de accesos,
-                    desinfección sistemática y monitoreo continuo, te contamos
-                    las mejores prácticas y nuevas tecnologías que están
-                    cambiando el enfoque preventivo en el campo.
-                  </p>
-                </div>
+                <img src="assets/img/all-images/nutrifarms-logo.svg" alt="" />
               </div>
             </div>
           </div>
@@ -1001,262 +922,6 @@
       </div>
     </section>
     <!--===== BLOG AREA ENDS =======-->
-
-    <!--===== BLOG AREA ENDS =======-->
-
-    <!--     <div class="blog3-section-area sp2" id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 m-auto">
-            <div class="blog-header-area text-center heading6">
-              <h5 data-aos="fade-up" data-aos-duration="800">Novedades</h5>
-              <h2 class="tg-element-title">Actualizate con nuestro blog</h2>
-              <p data-aos="fade-up" data-aos-duration="1000">
-                Compartimos experiencias, análisis y consejos sobre nutrición,
-                sanidad y eficiencia productiva en el campo.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="800"
-          >
-            <div class="blog-boxes-area">
-              <div class="tags-area">
-                <div class="date">
-                  <a href="#"
-                    ><i class="fa-solid fa-calendar-days"></i>16 Abril 2024</a
-                  >
-                </div>
-                <div class="contact">
-                  <a href="#"
-                    ><img alt="" src="assets/img/icons/auhtor1.svg" />Ignacio</a
-                  >
-                </div>
-              </div>
-              <div class="content-area">
-                <a href="blog-single.html"
-                  >Consejos clave para mejorar la sanidad animal</a
-                >
-                <a class="readmore" href="blog-single.html">
-                  Leer más <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="img1">
-                <img alt="" src="assets/img/all-images/blog-img7.png" />
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
-            <div class="blog-boxes-area">
-              <div class="tags-area">
-                <div class="date">
-                  <a href="#"
-                    ><i class="fa-solid fa-calendar-days"></i>5 Marzo 2024</a
-                  >
-                </div>
-                <div class="contact">
-                  <a href="#"
-                    ><img alt="" src="assets/img/icons/auhtor1.svg" />Juan
-                    Manuel</a
-                  >
-                </div>
-              </div>
-              <div class="content-area">
-                <a href="blog-single.html"
-                  >Estrategias de alimentación en épocas críticas</a
-                >
-                <a class="readmore" href="blog-single.html">
-                  Leer más <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="img1">
-                <img alt="" src="assets/img/all-images/blog-img8.png" />
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6"
-            data-aos="zoom-in"
-            data-aos-duration="1200"
-          >
-            <div class="blog-boxes-area">
-              <div class="tags-area">
-                <div class="date">
-                  <a href="#"
-                    ><i class="fa-solid fa-calendar-days"></i>22 Enero 2024</a
-                  >
-                </div>
-                <div class="contact">
-                  <a href="#"
-                    ><img alt="" src="assets/img/icons/auhtor1.svg" />Equipo
-                    Técnico</a
-                  >
-                </div>
-              </div>
-              <div class="content-area">
-                <a href="blog-single.html"
-                  >Tendencias en bioseguridad para productores</a
-                >
-                <a class="readmore" href="blog-single.html">
-                  Leer más <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="img1">
-                <img alt="" src="assets/img/all-images/blog-img9.png" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- ==== FIN BLOQUE: BLOG ==== -->
-
-    <!-- ==== INICIO BLOQUE: CONTACT ==== -->
-    <!--     <div
-      class="contact3-section-area sp"
-      id="contact"
-      style="background: var(--ztc-bg-bg-8)"
-    >
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="contact-header-area heading7 text-white">
-              <h5>Contacto</h5>
-              <h2 class="tg-element-title">Hablemos de tu producción</h2>
-              <p>
-                Si necesitás asesoramiento o querés conocer cómo mejorar la
-                nutrición y sanidad animal en tu establecimiento, ¡estamos para
-                ayudarte!
-              </p>
-              <div class="mt-4">
-                <div class="icons-text d-flex align-items-center mb-3">
-                  <div class="icon-circle me-3">
-                    <i class="fa-solid fa-phone"></i>
-                  </div>
-                  <div class="text">
-                    <p class="mb-0">Ignacio</p>
-                    <a class="text-white" href="tel:+5493434521160"
-                      >+54 9 343 452 1160</a
-                    >
-                  </div>
-                </div>
-                <div class="icons-text d-flex align-items-center mb-3">
-                  <div class="icon-circle me-3">
-                    <i class="fa-solid fa-phone"></i>
-                  </div>
-                  <div class="text">
-                    <p class="mb-0">Juan Manuel</p>
-                    <a class="text-white" href="tel:+5493482659355"
-                      >+54 9 3482 659355</a
-                    >
-                  </div>
-                </div>
-                <div class="icons-text d-flex align-items-center mb-3">
-                  <div class="icon-circle me-3">
-                    <i class="fa-solid fa-envelope"></i>
-                  </div>
-                  <div class="text">
-                    <p class="mb-0">Email</p>
-                    <a
-                      class="text-white"
-                      href="mailto:suscursalcrespo@nutrifarms.com.ar"
-                      >suscursalcrespo@nutrifarms.com.ar</a
-                    >
-                  </div>
-                </div>
-                <div class="icons-text d-flex align-items-center">
-                  <div class="icon-circle me-3">
-                    <i class="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div class="text">
-                    <p class="mb-0">Dirección</p>
-                    <span class="text-white"
-                      >RN12 KM 406, Crespo, Entre Ríos</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-duration="1200">
-            <div class="contact-submit-boxarea">
-              <h4>Dejanos tu consulta</h4>
-              <form action="https://api.web3forms.com/submit" method="POST">
-                <input
-                  name="access_key"
-                  type="hidden"
-                  value="0cd32fff-eda2-4da3-be43-37d47fbb396b"
-                />
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="input-area">
-                      <p>Nombre completo</p>
-                      <input
-                        name="name"
-                        placeholder="Ej: Juan Pérez"
-                        required=""
-                        type="text"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="input-area">
-                      <p>Teléfono</p>
-                      <input
-                        name="phone"
-                        placeholder="Ej: +54 9 ..."
-                        required=""
-                        type="tel"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="input-area">
-                      <p>Correo electrónico</p>
-                      <input
-                        name="email"
-                        placeholder="ejemplo@correo.com"
-                        required=""
-                        type="email"
-                      />
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="input-area">
-                      <p>Mensaje</p>
-                      <textarea
-                        cols="30"
-                        name="message"
-                        placeholder="¿Cómo podemos ayudarte?"
-                        required=""
-                        rows="6"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div class="col-lg-12">
-                    <div class="input-area1">
-                      <button class="header-btn5" type="submit">
-                        Enviar consulta
-                        <i class="fa-solid fa-arrow-right"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- ==== FIN BLOQUE: CONTACT ==== -->
 
     <!-- ==== INICIO BLOQUE: FOOTER ==== -->
     <div class="footer3-section-area">
