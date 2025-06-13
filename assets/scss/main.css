@@ -553,8 +553,6 @@ Location:
 /*============= CASE CSS AREA ===============*/
 /*============= FOOTER CSS AREA ===============*/
 /*============= COMMON CSS AREA ===============*/
-
-
 .heading1 h5 {
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
@@ -791,8 +789,8 @@ Location:
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s18);
   font-weight: var(--ztc-weight-medium);
-  color: black;
-  opacity: 100% !important;
+  color: var(--ztc-text-text-8);
+  opacity: 80% !important;
   line-height: var(--ztc-font-size-font-s26);
 }
 
@@ -10385,9 +10383,13 @@ Location:
   transition: all 0.4s;
   margin-bottom: 30px;
 }
-.casestudy2-section-area .case-auhtor-boxarea:hover .img1 img {
-  transform: scale(1.1) rotate(-4deg);
-  transition: all 0.4s;
+.casestudy2-section-area .case-auhtor-boxarea:hover {
+  /*  .img1 {
+       img {
+           transform: scale(1.1) rotate(-4deg);
+           transition: all .4s;
+       }
+   } */
 }
 .casestudy2-section-area .case-auhtor-boxarea:hover .case-bg {
   transition: all 0.6s;
@@ -10435,7 +10437,7 @@ Location:
   line-height: 48px;
   text-align: center;
   display: inline-block;
-  color: var(--ztc-text-text-1);
+  color: black;
   border-radius: 50%;
   transform: rotate(-45deg);
   transition: all 0.4s;
@@ -10447,7 +10449,7 @@ Location:
   line-height: var(--ztc-font-size-font-s16);
   color: var(--ztc-text-text-1);
   transition: all 0.4s;
-  font-weight: var(--ztc-weight-medium);
+  font-weight: black;
   margin-top: 24px;
   margin-bottom: 16px;
 }
@@ -10456,7 +10458,7 @@ Location:
   transition: all 0.4s;
   font-size: var(--ztc-font-size-font-s22);
   line-height: var(--ztc-font-size-font-s22);
-  color: var(--ztc-text-text-1);
+  color: black;
   font-weight: var(--ztc-weight-bold);
   font-family: var(--ztc-bg-bg-7);
 }
@@ -10641,13 +10643,15 @@ Location:
   transition: all 0.4s;
   margin-bottom: 53px;
 }
+.casestudy-inner-section-area .case-author-boxarea:hover .imges {
+  /* img {
+      transform: scale(1.1) rotate(4deg);
+      transition: all .4s;
+  } */
+}
 .casestudy-inner-section-area .case-author-boxarea:hover .imges::after {
   height: 100%;
   width: 100%;
-  transition: all 0.4s;
-}
-.casestudy-inner-section-area .case-author-boxarea:hover .imges img {
-  transform: scale(1.1) rotate(4deg);
   transition: all 0.4s;
 }
 .casestudy-inner-section-area .case-author-boxarea:hover .case-content .icons a {

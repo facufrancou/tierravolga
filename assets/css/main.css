@@ -10389,8 +10389,9 @@ Location:
   margin-bottom: 30px;
 }
 .casestudy2-section-area .case-auhtor-boxarea:hover .img1 img {
-  transform: scale(1.1) rotate(-4deg);
-  transition: all 0.4s;
+  /* transform: scale(1.1) rotate(-4deg); */
+  /* transition: all 0.4s; */
+  color: var(--ztc-text-text-1);
 }
 .casestudy2-section-area .case-auhtor-boxarea:hover .case-bg {
   transition: all 0.6s;
@@ -10417,6 +10418,7 @@ Location:
   bottom: -300px;
   z-index: 1;
   transition: all 0.6s;
+ 
 }
 .casestudy2-section-area .case-auhtor-boxarea .case-bg img {
   height: 100%;
@@ -10444,11 +10446,17 @@ Location:
   transition: all 0.4s;
   background: var(--ztc-bg-bg-7);
 }
+.casestudy2-section-area .case-auhtor-boxarea:hover .content span {
+
+  transform: rotate(-360deg);
+  transition: all 0.6s;
+  
+}
 .casestudy2-section-area .case-auhtor-boxarea .content p {
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
-  line-height: var(--ztc-font-size-font-s16);
-  color: var(--ztc-text-text-1);
+  font-size: var(--ztc-font-size-font-s20);
+  line-height: var(--ztc-font-size-font-s20);
+  color: var(--ztc-bg-bg-7);
   transition: all 0.4s;
   font-weight: var(--ztc-weight-medium);
   margin-top: 24px;
@@ -10459,10 +10467,27 @@ Location:
   transition: all 0.4s;
   font-size: var(--ztc-font-size-font-s22);
   line-height: var(--ztc-font-size-font-s22);
+  color: var(--ztc-bg-bg-7);
+  font-weight: var(--ztc-weight-bold);
+  font-family: var(--ztc-bg-bg-7);
+}
+.casestudy2-section-area .case-auhtor-boxarea:hover .content a{
+  display: inline-block;
+  transition: all 0.8s;
+  font-size: var(--ztc-font-size-font-s22);
+  line-height: var(--ztc-font-size-font-s22);
   color: var(--ztc-text-text-1);
   font-weight: var(--ztc-weight-bold);
   font-family: var(--ztc-bg-bg-7);
 }
+.casestudy2-section-area .case-auhtor-boxarea:hover .content p{
+  display: inline-block;
+  transition: all 0.8s;
+
+  color: var(--ztc-text-text-1);
+
+}
+
 
 .casestudy4-section-area {
   position: relative;
